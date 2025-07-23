@@ -1,34 +1,28 @@
 # matematica
 
-Matematica é uma biblioteca Python simples, porém poderosa, para escrever e manipular operações matemáticas de forma intuitiva — feita para brasileiros que querem programar matemática sem complicação.
+## Biblioteca Python simples para escrever e manipular operações matemáticas de forma intuitiva — feita para Brasileiros que querem programar em Python sem barreiras Linguísticas.
 
 
 A Matematica permite realizar operações matemáticas comuns facilmente, sem precisar se preocupar com sintaxes complexas. Democratizamos a programação matemática para falantes de português do Brasil, oferecendo funções claras e intuitivas.
 
 Matematica está em constante desenvolvimento para atender às necessidades de estudantes e desenvolvedores.
 
-Instalação e versões suportadas
+## Instalação e Versões Suportadas
 A Matematica está disponível no PyPI:
 
-bash
-Copiar
-Editar
 $ python -m pip install matematica
-A Matematica suporta oficialmente Python 3.8 ou superior.
 
-Funcionalidades principais
-Cálculo do Máximo Divisor Comum (MDC)
+A Matematica suporta oficialmente Python 3.12.
 
-Cálculo do Mínimo Múltiplo Comum (MMC)
 
-Verificação de número primo
 
+Funcionalidades Principais
 Nomes de funções em português, fáceis de usar
 
-Integração simples em projetos Python
+ Integração simples em projetos Python
 
-Documentação
-Guia completo e referência da API disponíveis em: https://matematica.readthedocs.io
+
+Guia completo e referência da Lib disponíveis em: Link da Biblioteca
 
 Clonando o repositório
 Para clonar o repositório Matematica, use:
@@ -37,12 +31,11 @@ bash
 Copiar
 Editar
 git clone https://github.com/seu-usuario/matematica.git
+
 Contribuindo
 Pull requests são bem-vindos! Por favor, siga as diretrizes no arquivo CONTRIBUTING.md.
 
 Licença
 Licença MIT
 
-yaml
-Copiar
-Editar
+
