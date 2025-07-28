@@ -1,20 +1,31 @@
-def numero_primo(n):
-    intervalo_divisores = range(2, n-1)
+from functools import reduce
 
-    for x in intervalo_divisores:
-        if(n % x == 0):
-            print("Não é primo")
-            return 
-        else:
-            print("É primo")
-            return(n)            
+def numero_primo(lista_numeros):
+    lista_primos = []
+    for numero in lista_numeros:
+        if numero < 2:
+            continue
+        eh_primo = True
+        for x in range(2, int(numero**0.5) + 1):
+            if numero % x == 0:
+                eh_primo = False
+                break
+        if eh_primo:
+            lista_primos.append(numero)
+    lista_primos.sort()
+    return lista_primos
 
-def mmc(a):
-    pass
+def mdc(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
-def mdc(a):
-    pass
+def mdc_lista(lista_numeros):
+    return reduce(mdc, lista_numeros)
 
-a = int(input("Digite um número: "))
+def mmc(a, b):
+    return abs(a * b) // mdc(a, b)
 
-numero_primo(a)
+def mmc_lista(lista_numeros):
+    return reduce(mmc, lista_numeros)
+
